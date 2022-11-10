@@ -1,3 +1,5 @@
+//package Chapter02.ex04;
+
 package Chapter02.ex04;
 
 public class PrimaryDataType1 {
@@ -57,8 +59,9 @@ public class PrimaryDataType1 {
 		double value9 = 1.1345678910111213;
 		System.out.println(value9);
 		
-		// 4. 문자형 (char) : 영문/한글/일본어 .... 한 글자만 넣을 수 있음 
+		// 4. 문자형 (char) : 영문/한글/일본어 ...., 숫자,특수문자) 한 글자만 넣을 수 있음 
 		// 변수의 값을 할당할 리터럴에 작은 따옴표 ' '
+		// 1. char 자료형 변수에 직접 문자로 저장하는 방법 (
 		char value10 =  'a';
 		char value11 = '가';
 		char value12 = 'A';
@@ -71,11 +74,43 @@ public class PrimaryDataType1 {
 		System.out.println(value13);
 		System.out.println(value14);
 		
+		//2. 정수 값으로 문자를 저장하는 방법 : 아스키 코드값으로 문자를 저장 
+		char value15 = 65; // A
+		char value16 = 0xac00; //0x : 16진수 0: 8 진수 0b : 2진수 
+					// 가
+		char value17 = 51 ; // 숫자 3
+		
+		System.out.println(value15);
+		System.out.println(value16);
+		System.out.println(value17);
+		
+		//3. 유니코드로 저장하는 방법 : 전세계의 글자를 3byte 로 저장 
+		char value18 = '\u0041' ; //A
+		char value19 = '\uac00' ; //가
+		char value20 = '\u0033' ; //3
+		
+		System.out.println(value18);
+		System.out.println(value19);
+		System.out.println(value20);
+		
+		/*
+		<문제> 구글을 검색해서 자신의 이름의 유니코드를 찾아서 변수에 할당하고 이름출력 
+		*/
+		char aa = '\uC774' ;
+		char bb = '\uBBF8' ;
+		char cc = '\uACBD' ;
+		
+		System.out.print(aa);
+		System.out.print(bb);
+		System.out.print(cc);
+		System.out.println( );
+		
 		// 5. 문자열 (String) : 여러 글자를 담을 수 있다.
 		//		변수의 값을 할당하는 리터럴에 " "
-		
-		
-
+			// 기본 자료형이 아니다. 참조 자료형(객체)
+		//
+		String value21 = "안녕하세요. 오늘의 날씨는 매우 맑습니다.";
+		System.out.println(value21);
 	}
 
 }
