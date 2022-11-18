@@ -29,6 +29,8 @@ public class Ex01 {
 	  
 	   	 // 참조 자료형 :aNAME.euals (bNAME) 
 	   
+	   number.close();
+	   
 }
 
 }

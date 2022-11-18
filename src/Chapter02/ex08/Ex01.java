@@ -45,7 +45,7 @@ public class Ex01 {
 	    double avg = sum / 4.0;
 		System.out.println("당신의 가족의 나이 평균은 " + avg + "입니다.");
 		
-		
+		sc.close();
 	}
 
 }

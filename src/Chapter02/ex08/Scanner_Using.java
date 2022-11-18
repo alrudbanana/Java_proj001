@@ -45,7 +45,7 @@ public class Scanner_Using {
 		System.out.println("평균은 " + avg + "입니다.");
 		
 		
-		
+		sc.close();
 		
 
 	}

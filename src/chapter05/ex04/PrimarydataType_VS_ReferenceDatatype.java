@@ -18,7 +18,7 @@ public class PrimarydataType_VS_ReferenceDatatype {
 		//2. 참조 데이터 타입에서 대입 연산 (Stack의 값(Heap영역의 주소)를 복사, Heap
 		int [] arr1 = new int [] {3,4,5};
 		int [] arr2 = arr1; // heap 영역의 값을 복사 하는 것이 아니라 arr1의 Stack의 즈소를 복사 
-		arr2[0] = 7;
+		arr1[0] = 5;
 		
 		System.out.println(arr1[0]); //7
 		System.out.println(arr2[0]); //7
