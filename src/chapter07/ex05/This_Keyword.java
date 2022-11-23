@@ -31,8 +31,7 @@ public class This_Keyword {
 		// super : 상속에서 부모의 객체의 필드나 메소드를 사용. <
 		// super() : 부모 클래스의 생성자 호출 할 때 사용
 		
-		A a = new A();
-		a.work();
+		//A a = work
 
 	}
 
