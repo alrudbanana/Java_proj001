@@ -22,6 +22,7 @@ public class Package {
 		//기본 생성자 호출 
 		Student s1 = new Student ();
 		s1.print();
+		
 		System.out.println("==============");
 		//매개변수 4개인 생성자 호출 
 		Student s2 =new Student("이미경","20183350",2,"서울");

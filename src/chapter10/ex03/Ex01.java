@@ -33,15 +33,14 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		Fruit f0 = new Fruit();
-		Fruit f1 = new Apple();
+		Apple f1 = new Apple();
 		Fruit f2 = new Banana();
 		Fruit f3 = new Orange();
 		
 		f0.Eat();
 		f1.Eat();
-		f2.Eat();
+		//f2.Eat(Fruit);
 		f3.Eat();
-		
 		
 
 	}
