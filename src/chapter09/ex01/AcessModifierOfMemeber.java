@@ -8,10 +8,10 @@ public class AcessModifierOfMemeber {
 		/* 		
 		 		public : 다ㅏ른 패키지에서 접근 가능함 
 		 		protected :다른 패키지에서 접근 가능 (단, 상속관계일 때만 적용) 
-		 		default: 같은 패키지에서만 접근 가능 , <<접근제어가자 없는 경우 >>
+		 		명시해서 쓰지 않고 생략가능 // default: 같은 패키지에서만 접근 가능 , <<접근제어가자 없는 경우 >>
 		 		private: 같은 파일에서만 접근 가능 
 		 		 ;
-		 	u
+		 	
 		 */
 
 	}

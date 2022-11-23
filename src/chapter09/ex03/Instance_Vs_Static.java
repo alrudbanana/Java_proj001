@@ -1,7 +1,7 @@
 package chapter09.ex03;
 
 class A {
-	int a = 1; 
+	int a = 1;				//인스턴스 필드 : 객체를 생성 후 사용가능  
 	int b = 2;
 
 	void print() {
