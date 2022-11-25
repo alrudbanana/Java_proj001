@@ -34,7 +34,7 @@ public class Method_Overriding01 {
 		//3. A타입 / B 생성자 호출 
 		A ab = new B();
 		ab.print();				//B클래스의 print()
-		
+								//메소드가 같기 때문에 오버라이딩된 메소드가 호출되는것임.
 		
 	}
 
