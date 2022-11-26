@@ -40,7 +40,7 @@ public class Student_Test {
 		s4.print();
 		System.out.println("===");
 		Student s5 = new Student("셔누", "개좋아");
-		s5.print();
+		
 		System.out.println("===== 인스턴스 필드: 다른 객체와 공유되지 않음 =====");
 		System.out.println(s1.stuName);
 		System.out.println(s2.stuName);
