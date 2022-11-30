@@ -26,7 +26,7 @@ public class TryWithResource01 {
 		ir1 = new InputStreamReader(System.in);
 		//예외를 내가 처리 
 		try {
-			char input = (char) ir1.read();
+			char input = (char) ir1.read();		//예외처리가 되어야함. 일반예외 : IOException
 			System.out.println("입력한 글자는 :"+ input);
 		} catch (IOException e) {
 			// 
