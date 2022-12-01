@@ -1,6 +1,5 @@
 package Chapter14.ex07;
 
-import Chapter14.ex07.Balance_Test_Import.BalanceException;
 
 public class Account {
 	//완료시간 : 1:20분까지 , p.jangwoo@gmail.com
@@ -26,7 +25,7 @@ public class Account {
 		
 		if (balance < money) {
 			System.out.println("현재 예금잔고 : " + balance  + ",  출금 요청한 금액 : " + money);
-			throw new BalanceException ("예금 잔고가 부족합니다." +  (money - balance) + "원 모자랍니다");
+			throw new BalanceException("예금 잔고가 부족합니다." +  (money - balance) + "원 모자랍니다");
 			
 		}else {
 			balance -= money; 

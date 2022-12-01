@@ -24,17 +24,18 @@ class GenericMethods{
 public class GenericMethod {
 
 	public static void main(String[] args) {
-		// 제너릭 메소드 사용하기 ]
+		// 제너릭 메소드 사용하기 
 		
 		// 일반 클래스의 객체 생성 
 		GenericMethods gm = new GenericMethods();
 	System.out.println("===============================");
 	
 		//1. 메소드 호출시 타입 지정
+		
 		gm.<String> method1("안녕");
-	
-		String  str1 = gm.<String>method1("안녕");
 		//2. 메소드 호출시 타입 생략
+		String  str1 = gm.<String>method1("안녕");
+		
 		String 	str2 = gm.method1("하세요");	//뒤의 인풋 값으로 타입을 유추할 수 있는 경우
 											//생략이 가능 
 		System.out.println(str1);
