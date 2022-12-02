@@ -1,5 +1,7 @@
 package Chapter16.ex06;
 
+
+
 class A {	//모든 타입이 인풋이 가능함 
 	public <T> void method (T t) {
 		//제너릭 메소드 내부에서 사용가능한 메소드는 Object의 메소드만 사용가능하다. 
