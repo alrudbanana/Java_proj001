@@ -44,9 +44,16 @@ public class UseArrayList {
 		
 		//컬렉션의 내용을 순환하면서 출력 
 		for (int i = 0; i < a1.size(); i++) {
-			Student ss1 = 
+			Student ss1 = a1.get(i);
+			System.out.println(ss1);
 		}
-		
+		System.out.println("===========Enhanced For==============");
+		//Enhanced For 
+		for(Student k : a1) {
+			System.out.println(k);
+		}
+		System.out.println(a1);
+		System.out.println(a1.toString());
 	}
 
 }
